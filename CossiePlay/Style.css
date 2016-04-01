@@ -1,3 +1,97 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	background-color: #B1B1B1;
+	
+}
+
+.container {
+	width: 1086px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #7E7E7E;
+}
+.PhotoCenter{
+	text-align: center
+}
+
+.content {
+	padding: 10px;
+	
+}
+
+.header{
+	
+}
+
+.footer {
+	padding: 1px;
+	text-align: center;
+	clear: both;
+    position: relative;
+    z-index: 10;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+
+ul li{
+	float: left;
+	width: 217px;
+	text-align: center;
+	height: 53px;
+	line-height: 51px;
+	padding: 0;
+	background-color: #7E7E7E;
+	color:#60EDFF;
+			
+}
+
+ul li a{
+	text-decoration: none;
+	color: #60EDFF;
+}
+
+ul li:hover{
+	background-color: #3200FF ;
+}
+
+h1{
+	height: 254px;
+	position: relative;	
+}
+
+#SignUpCont {
+	right: 0;
+	float: right;
+	position: absolute;
+	padding-right: 10px;
+}
+
+#SignUpButton a{
+	text-decoration: none;
+	background-color:#7E7E7E;
+	padding-right:15px;
+	padding-left:15px;
+	color:#60EDFF;
+}
+
+#SignUpButton a:hover{
+	background-color: #3200FF;
+}
+h3{
+	text-align:center;	
+}
+.PhotoRight{
+	float:right;
+	}
+.PhotoLeft{
+	float:left;
+	padding-left: 10px;
+	padding-right:10px;
+	
+}
